@@ -471,6 +471,28 @@ p > video {
   z-index: 100000;
 }
 
+/* My edit*/
+
+.certifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.cer-container1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin: 100px;
+}
+.certification-img-box {
+  border: solid 1px #414141;
+}
+.certification-img {
+  width: 420px;
+}
+
 /* Forms
 -------------------------------------------------------------- */
 /* Fixes */
