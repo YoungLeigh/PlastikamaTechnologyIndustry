@@ -3313,6 +3313,13 @@ body.page #main-content {
   margin-bottom: 50px;
   margin-top: 10px;
 }
+.sub-heading-about {
+  width: 80%;
+}
+.about-intro-text {
+  margin: 30px 0 30px 0px;
+  padding-bottom: 30px;
+}
 /* Media Queries
 -------------------------------------------------------------- */
 @media only screen and (max-width: 1199px) {
