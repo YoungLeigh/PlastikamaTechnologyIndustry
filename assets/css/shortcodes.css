@@ -241,6 +241,11 @@
   line-height: 32px;
   margin-top: 16px;
 }
+.themesflat-headings.style-1 .sub-heading-home-1 {
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 16px;
+}
 
 /* Style 2 */
 .themesflat-headings.style-2 .heading {
@@ -922,6 +927,9 @@
 }
 .parallax-overlay .bg-parallax-overlay.overlay-black.style3 {
   background-color: rgba(0, 0, 0, 0.8);
+}
+.parallax-overlay .bg-parallax-overlay.overlay-black.style4 {
+  background-color: rgb(255, 255, 255);
 }
 
 /* Project
