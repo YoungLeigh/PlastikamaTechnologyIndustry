@@ -400,10 +400,21 @@
   visibility: visible;
 }
 
+.themesflat-icon-box.style-1.accent-color:hover .fa-earth-asia {
+  color: #fff;
+}
 .themesflat-icon-box.style-1.accent-color:hover .icon-wrap {
   color: #fff;
 }
-
+.themesflat-icon-box.style-1.accent-color:hover .fa-seedling {
+  color: #fff;
+}
+.fa-earth-asia {
+  color: #092451;
+}
+.fa-seedling {
+  color: #092451;
+}
 /* Style 2 */
 .themesflat-icon-box.style-2 .heading {
   font-size: 16px;
