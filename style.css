@@ -1126,7 +1126,6 @@ body.page #main-content {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .overlay-effect.bg-color-4 {
-  background-color: rgba(0, 0, 0, 0.6);
 }
 .overlay-effect.bg-color-accent {
   background-color: rgba(0, 0, 0, 0.4);
@@ -3314,11 +3313,30 @@ body.page #main-content {
   margin-top: 10px;
 }
 .sub-heading-about {
-  width: 80%;
+  width: auto;
+  position: relative;
+  font-size: 15px;
+  line-height: 2.5;
+  font-weight: 400;
+  color: rgb(85, 85, 85);
+  margin-top: 29px;
 }
 .about-intro-text {
-  margin: 30px 0 30px 0px;
+  padding: 120px;
   padding-bottom: 30px;
+}
+.about-cards {
+  padding: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about-core-value {
+  padding: 0px 400px 100px 120px;
+}
+.about-core-value-header {
+  padding: 40px 400px 0px 120px;
+}
+.container-about {
 }
 /* Media Queries
 -------------------------------------------------------------- */
@@ -3461,6 +3479,19 @@ body.page #main-content {
 @media only screen and (max-width: 767px) {
   #site-header .wrap-inner {
     padding: 20px 0px;
+  }
+  .about-intro-text {
+    padding: 40px;
+    padding-bottom: 30px;
+  }
+  .about-cards {
+    padding: 40px;
+  }
+  .about-core-value {
+    padding: 0px 40px 40px 40px;
+  }
+  .about-core-value-header {
+    padding: 40px 40px 0px 40px;
   }
   .themesflat-row.gutter-30 > [class*="col"] {
     padding-top: 50px;

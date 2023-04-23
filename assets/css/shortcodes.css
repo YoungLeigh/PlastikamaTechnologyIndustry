@@ -347,6 +347,7 @@
 
 .themesflat-icon-box.padding-inner.pd33 {
   padding: 33px 15px 25px 15px;
+  height: 450px;
 }
 
 /*  Icon top */
@@ -1356,7 +1357,7 @@
   color: #2b323a;
 }
 .themesflat-tabs.style-1 .tab-content .item-content {
-  padding: 19px 0px 19px 21px;
+  padding: 19px 21px 19px 21px;
   background-color: #fafafb;
 }
 .themesflat-tabs.style-1 .tab-content .item-content p {
@@ -2308,7 +2309,7 @@
   line-height: 54px;
 }
 .themesflat-counter.style-1 .suffix {
-  color: #0a2351;
+  color: #ffffff;
 }
 .themesflat-counter.style-1 .heading {
   font-size: 14px;
@@ -2483,6 +2484,9 @@
 @media only screen and (max-width: 767px) {
   .flat-content-wrap.pd26 {
     padding-left: 0px;
+  }
+  .themesflat-icon-box.padding-inner.pd33 {
+    height: 400px;
   }
 }
 
